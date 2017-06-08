@@ -43,6 +43,10 @@ var myHandlers = {
     },
     'thanks' : function() {
           this.emit(':tell', "Goodbye");
+    },
+    'query': function() {
+           var userq = this.event.request.intent.slots.querystr.value;
+           this.emit(':tell', "Ok, I'm going to tell you how to " + userq);
     }
 }
 
