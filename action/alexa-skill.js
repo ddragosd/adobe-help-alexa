@@ -40,6 +40,9 @@ var newSessionHandlers = {
 var myHandlers = {
     'hello': function () {
          this.emit(':ask', "I'm doing fine, how about yourself ?"); 
+    },
+    'thanks' : function() {
+          this.emit(':tell', "Goodbye");
     }
 }
 
