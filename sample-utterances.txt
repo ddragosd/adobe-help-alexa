@@ -1,0 +1,7 @@
+hello how are you
+hello what's up
+hello tell me something
+thanks thanks
+thanks thank you
+thanks bye
+query how can I {do something|querystr}
